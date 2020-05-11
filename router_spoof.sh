@@ -33,7 +33,7 @@ echo $INTERFACES | tr ' ' '\n' | while read INTERFACE; do
     ifconfig $INTERFACE down
 
     # Set new address to interface
-    NEW_MAC=$(hexdump -n3 -e'/3 "00:60:2F" 3/1 ":%02X"' /dev/random)
+    NEW_MAC=$(hexdump -n6 -e '/1 ":%02X"' /dev/random | sed s/^://g)
     echo "Setting $NEW_MAC to $INTERFACE"
     ifconfig $INTERFACE hw ether $NEW_MAC > /dev/null 2>&1
 
