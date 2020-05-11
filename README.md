@@ -9,7 +9,7 @@
 ```sh
 wget "https://raw.githubusercontent.com/sonodima/RouterSpoof/master/router_spoof.sh" -O "/etc/init.d/router_spoof.sh"
 chmod 755 "/etc/init.d/router_spoof.sh"
-ln -s /etc/init.d/router_spoof.sh /etc/rc.d/S99router_spoof
+ln -s "/etc/init.d/router_spoof.sh" "/etc/rc.d/S99router_spoof"
 ```
 
 ## Setup
