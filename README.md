@@ -14,9 +14,9 @@ ln -s /etc/init.d/router_spoof.sh /etc/rc.d/S99router_spoof
 
 ## Setup
 
+> Edit 'INTERFACES' to pick what you want to spoof.<br>Please note that spoofing every interface is not a good idea, and it may make your internet connection unusable.
 ```
-Edit 'INTERFACES' to pick what you want to spoof.
-Please note that spoofing every interface is not a good idea, and it may make your internet connection unusable.
+vi "/etc/init.d/router_spoof.sh"
 ```
 
 ## Author
