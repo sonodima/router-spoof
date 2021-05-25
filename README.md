@@ -1,4 +1,4 @@
-<h1 align="center">RouterSpoof 📡</h1>
+<h1 align="center">router-spoof 📡</h1>
 <p>
 </p>
 
