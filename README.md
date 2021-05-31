@@ -2,7 +2,7 @@
 <p>
 </p>
 
-> ASH friendly script that spoofs mac addresses and changes network domain of OpenWRT based routers.<br>If set up this script with the commands below, it will launch every time the router starts.<br><br>Note that changes to the domain name only take place after a reboot, so in each session you will see the previous domain name.
+> Script that spoofs mac addresses and changes network domain of OpenWRT based routers.<br>If set up this script with the commands below, it will launch every time the router starts.<br><br>Note that changes to the domain name only take place after a reboot, so in each session you will see the previous domain name.
 
 ## Install
 
