@@ -1,7 +1,7 @@
 #
 #  router_spoof.sh
 #
-#  ASH friendly script that spoofs mac addresses and changes network domain of OpenWRT based routers.
+#  Script that spoofs mac addresses and changes network domain of OpenWRT based routers.
 #
 
 
